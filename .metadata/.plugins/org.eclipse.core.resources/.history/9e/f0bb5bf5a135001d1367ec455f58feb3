@@ -1,0 +1,11 @@
+package javaprogram;
+import pack1.Factirial;
+public class ClassFromPack1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Factirial obj=new Factirial();
+		System.out.println("Factorial of number is : "+obj.fact(6));
+	}
+
+}
